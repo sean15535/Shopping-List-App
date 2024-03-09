@@ -18,7 +18,8 @@ def view_shopping_list():
 
 def remove_item():
     if not shopping_list:
-        return "Your shopping list is empty."
+        print("Your shopping list is empty.")
+        return
     index = int(input("Enter the index of the item to remove: "))
     try:
         if 1 <= index <= len(shopping_list):
