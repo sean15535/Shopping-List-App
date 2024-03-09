@@ -29,7 +29,7 @@ def remove_item():
         print("Invalid index.")
 
 def add_item():
-        item = input("Enter the item you want to add: ")
+        item = input("Enter the item you want to add: ").capitalize()
         shopping_list.append(item)
         return f"'{item}' added to your shopping list."
 
