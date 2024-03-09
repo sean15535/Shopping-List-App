@@ -1,4 +1,3 @@
-shopping_list = []
 
 print("Welcome to Shoprite Shopping list Manager ")
 while True:
